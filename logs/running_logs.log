@@ -674,3 +674,23 @@ x==========x]
 [2025-01-28 12:59:02,066 : INFO : main : >>>>>> stage Model Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-01-28 13:29:04,039 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.23:8080]
+[2025-01-28 13:29:04,041 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2025-01-28 13:29:27,586 : INFO : _internal : 192.168.2.23 - - [28/Jan/2025 13:29:27] "GET / HTTP/1.1" 200 -]
+[2025-01-28 13:29:28,737 : INFO : _internal : 192.168.2.23 - - [28/Jan/2025 13:29:28] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-01-28 13:29:30,006 : INFO : _internal : 192.168.2.23 - - [28/Jan/2025 13:29:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-01-28 13:32:04,668 : INFO : _internal : 192.168.2.23 - - [28/Jan/2025 13:32:04] "POST /predict HTTP/1.1" 200 -]
+[2025-01-28 13:32:18,393 : INFO : _internal : 192.168.2.23 - - [28/Jan/2025 13:32:18] "POST /predict HTTP/1.1" 200 -]
+[2025-01-28 13:38:54,559 : INFO : _internal : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.2.23:8080]
+[2025-01-28 13:38:54,560 : INFO : _internal : [33mPress CTRL+C to quit[0m]
+[2025-01-28 13:39:14,535 : INFO : _internal : 127.0.0.1 - - [28/Jan/2025 13:39:14] "GET / HTTP/1.1" 200 -]
+[2025-01-28 13:39:15,520 : INFO : _internal : 127.0.0.1 - - [28/Jan/2025 13:39:15] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-01-28 13:39:16,800 : INFO : _internal : 127.0.0.1 - - [28/Jan/2025 13:39:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-01-28 13:39:29,889 : INFO : _internal : 127.0.0.1 - - [28/Jan/2025 13:39:29] "POST /predict HTTP/1.1" 200 -]
+[2025-01-28 13:39:29,910 : INFO : _internal : 127.0.0.1 - - [28/Jan/2025 13:39:29] "POST /predict HTTP/1.1" 200 -]
